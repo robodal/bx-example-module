@@ -8,12 +8,6 @@
         }
     ],
     "require": {
-        "composer/installers": "~1.5",
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "https://github.com/x0i/bx-example-module.git"
-        }        
-    ]
+        "composer/installers": "~1.0"
+    }
 }
