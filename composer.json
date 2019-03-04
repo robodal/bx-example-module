@@ -1,0 +1,19 @@
+{
+    "name": "x0i/example-module",
+    "type": "bitrix-d7-component",
+    "authors": [
+        {
+            "name": "Oleg Danilkin",
+            "email": "bx@robodal.ru"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.5",
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/x0i/bx-example-module.git"
+        }        
+    ]
+}
