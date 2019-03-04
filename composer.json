@@ -1,13 +1,21 @@
 {
     "name": "x0i/bx-example-module",
     "type": "bitrix-d7-component",
+    "description": "Example component for bitrix installed with composer",
+    "homepage": "https://github.com/x0i/bx-example-module",
+    "keywords": ["bitrix", "composer", "example"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Oleg Danilkin",
-            "email": "bx@robodal.ru"
+            "email": "bx@robodal.ru",
+            "homepage": "https://x0i.ru"
         }
     ],
     "require": {
-        "composer/installers": "~1.0"
+        "php": "^7.0",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "ext-json": "*"
     }
 }
